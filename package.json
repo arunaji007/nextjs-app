@@ -2,10 +2,13 @@
   "name": "revolte-nextjs-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "20.18.3"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "npm run migrate && next start",
+    "start": "npm run migrate && node .next/standalone/server.js",
     "lint": "next lint",
     "generate": "npx prisma generate",
     "migrate": "npx prisma migrate dev --name init"

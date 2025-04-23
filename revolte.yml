@@ -1,7 +1,7 @@
 revolte:
   version: '1.0'
-  project: Cloud
-  appName: computing-app
+  project: instagram
+  appName: postRoll
   env:
     staging:
       branch: dev
