@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+   "build": "next build && cp -r ./prisma .next/ && cp -r ./public .next/"
     "start": "npm run migrate && node standalone/server.js",
     "lint": "next lint",
     "generate": "npx prisma generate",
