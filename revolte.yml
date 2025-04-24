@@ -3,7 +3,7 @@ revolte:
   project: instagram
   appName: postRoll
   env:
-    staging:
+    qa:
       branch: dev
       services:
         rid_1:
