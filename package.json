@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "npm run migrate && node .next/standalone/server.js",
+    "start": "npm run migrate && node standalone/server.js",
     "lint": "next lint",
     "generate": "npx prisma generate",
     "migrate": "npx prisma migrate dev --name init"
